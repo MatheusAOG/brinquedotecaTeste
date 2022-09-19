@@ -44,7 +44,7 @@
       const fullscreenButton = document.querySelector("#unity-fullscreen-button");
       const spinner = document.querySelector('.spinner');
 
-      const canFullscreen = (function() {
+      /*const canFullscreen = (function() {
         for (const key of [
             'exitFullscreen',
             'webkitExitFullscreen',
@@ -57,7 +57,7 @@
           }
         }
         return false;
-      }());
+      }());*/
 
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         container.className = "unity-mobile";
