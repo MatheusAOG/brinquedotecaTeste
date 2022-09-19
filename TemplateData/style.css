@@ -81,6 +81,9 @@ body {
   width: 5em;
   height: 5em;
 }
+
+
+
 .spinner {
   margin: 10px;
   font-size: 10px;
@@ -93,12 +96,33 @@ body {
   transform: translateZ(0);
   animation: spinner-spin 1.1s infinite linear;
 }
+#unity-canvas {
+    width: 960px;
+    height: 600px;
+    background: #231F20;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+#loading-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
 @keyframes spinner-spin {
   0% {
     transform: rotate(0deg);
   }
   100% {
     transform: rotate(360deg);
+
+
   }
 }
 
